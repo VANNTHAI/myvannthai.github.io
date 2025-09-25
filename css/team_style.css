@@ -1,0 +1,18 @@
+.col{
+  border: 1px solid rgb(244, 29, 12);
+  border-radius: 10px;
+  background-color: black;
+  transition: width 2s, height 2s, background-color 2s, transform 1s
+}
+.pic{
+  border-radius: 100%;
+  width: 120px;
+}
+.col:hover{
+  width: 200px;
+  height:200px;
+  border: 4px solid purple;
+  transform: rotate(720deg);
+  border: 3px solid purple;
+  transition: width 2s, height 2s, background-color 2s, transform 1s
+}
